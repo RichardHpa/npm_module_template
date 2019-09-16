@@ -1,0 +1,31 @@
+{
+  "name": "MODULE_NAME",
+  "version": "1.0.0",
+  "description": "A template for a custom npm module",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardHpa/npm_module_template.git"
+  },
+  "author": "Richard Hpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichardHpa/npm_module_template/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "homepage": "https://github.com/RichardHpa/npm_module_template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
